@@ -13,4 +13,4 @@ http.setConfig((config) => {
 })
 
 ```
-![录屏](/gif/screen.gif)
+![录屏](/gif/screens.gif)
