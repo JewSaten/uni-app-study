@@ -13,4 +13,4 @@ http.setConfig((config) => {
 })
 
 ```
-![录屏](https://s19.aconvert.com/convert/p3r68-cdx67/50rpo-q07t7.gif)
+![录屏](/gif/screen.gif)
