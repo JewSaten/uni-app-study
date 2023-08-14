@@ -1,0 +1,232 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/gateway/gateway",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/gateway/detail",
+			"style": {
+				"navigationBarTitleText": "网关"
+			}
+		},
+		{
+			"path": "pages/gateway/edit",
+			"style": {
+				"navigationBarTitleText": "设备信息"
+			}
+		},
+		{
+			"path": "pages/gateway/btnEdit",
+			"style": {
+				"navigationBarTitleText": "开关设置"
+			}
+		},
+		{
+			"path": "pages/task/task",
+			"style": {
+				"navigationBarTitleText": "定时设置"
+			}
+		},
+		{
+			"path": "pages/task/gatewayTask",
+			"style": {
+				"navigationBarTitleText": "定时"
+			}
+		},
+		{
+			"path": "pages/task/detail",
+			"style": {
+				"navigationBarTitleText": "定时"
+			}
+		},
+		{
+			"path": "pages/report/report",
+			"style": {
+				"navigationBarTitleText": "数据"
+			}
+		},
+		{
+			"path": "pages/report/dataPage",
+			"style": {
+				"navigationBarTitleText": "数据"
+			}
+		},
+		{
+			"path": "pages/report/detail"
+		},
+		{
+			"path": "pages/report/envLogChart",
+			"style": {
+				"navigationBarTitleText": "环境数据分析",
+				"pageOrientation": "landscape",
+				"disableScroll": true
+			}
+		},
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "设备分享"
+			}
+		},
+		{
+			"path": "pages/share/newShare",
+			"style": {
+				"navigationBarTitleText": "设备分享"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/setting/setting",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/my/userinfo",
+			"style": {
+				"navigationBarTitleText": "个人资料",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/devices/addDevices",
+			"style": {
+				"navigationBarTitleText": "添加设备",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"pagePath": "pages/task/task",
+			"iconPath": "static/images/tabBar/icon-clock-off@2x.png",
+			"selectedIconPath": "static/images/tabBar/icon-clock-on@2x.png",
+			"text": "定时"
+		}, {
+			"path": "pages/devices/deviceCtrl",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/report/runLog",
+			"style": {
+				"navigationBarTitleText": "运行日志",
+				"enablePullDownRefresh": true
+			}
+
+		}
+	    ,{
+            "path" : "pages/devices/devices",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设备",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feeding/feeding",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "饲喂",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/feeding/feedingDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "饲喂报表",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/weigh/weigh",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "称重",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "一体机管理",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {
+
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#4166D8",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/tabBar/icon-home-off@2x.png",
+				"selectedIconPath": "static/images/tabBar/icon-home-on@2x.png",
+				"text": "首页"
+			},
+			// {
+			// 	"pagePath": "pages/report/report",
+			// 	"iconPath": "static/images/tabBar/icon-report-off@2x.png",
+			// 	"selectedIconPath": "static/images/tabBar/icon-report-on@2x.png",
+			// 	"text": "数据"
+			// },
+			{
+				"pagePath": "pages/report/dataPage",
+				"iconPath": "static/images/tabBar/icon-report-off@2x.png",
+				"selectedIconPath": "static/images/tabBar/icon-report-on@2x.png",
+				"text": "数据"
+			},
+			// {
+			// 	"pagePath": "pages/feeding/feeding",
+			// 	"iconPath": "static/images/tabBar/icon-feeding-off@2x.png",
+			// 	"selectedIconPath": "static/images/tabBar/icon-feeding-on@2x.png",
+			// 	"text": "饲喂"
+			// },
+			// {
+			// 	"pagePath": "pages/weigh/weigh",
+			// 	"iconPath": "static/images/tabBar/icon-weigh-off@2x.png",
+			// 	"selectedIconPath": "static/images/tabBar/icon-weigh-on@2x.png",
+			// 	"text": "称重"
+			// },
+			{
+				"pagePath": "pages/my/my",
+				"iconPath": "static/images/tabBar/icon-my-off@2x.png",
+				"selectedIconPath": "static/images/tabBar/icon-my-on@2x.png",
+				"text": "我的"
+			}
+		]
+	}
+}
